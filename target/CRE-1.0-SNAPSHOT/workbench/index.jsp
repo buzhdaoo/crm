@@ -39,7 +39,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":"
 		});
 		
 		//在页面加载完毕后再工作区打开相应的页面
-		window.open("workbench/main/index.jsp","workareaFrame");
+		window.open("workbench/index.jsp","workareaFrame");
 		
 	});
 	
